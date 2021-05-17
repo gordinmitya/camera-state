@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camera1Activity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        tools:ignore="HardcodedText">
+
+        <TextView
+            android:id="@+id/view_focusing"
+            style="@style/StateText"
+            android:text="TOTAL" />
+
+        <TextView
+            android:id="@+id/view_af"
+            style="@style/StateText"
+            android:text="AF" />
+
+        <TextView
+            android:id="@+id/view_ae"
+            style="@style/StateText"
+            android:text="AE" />
+
+        <TextView
+            android:id="@+id/view_awb"
+            style="@style/StateText"
+            android:text="AWB" />
+
+    </LinearLayout>
+
+</FrameLayout>
